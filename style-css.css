@@ -1,0 +1,91 @@
+#charset "utf-8" 
+/* CSS Document */
+body {
+	background = color 	: #333333;
+	font-family			: Tahoma;
+	font-family			: 12 px;
+}
+#main {
+	background-color	:#ffffff;
+	width				:1200px;
+	margin				:0 auto;
+	border				:1px solid #000000;
+}
+#clear {
+	clear				:both;
+	float				:none;
+}
+#header {
+	background-color	:#000000;
+	width				:1200px;
+	margin				:0 auto;
+	border				:1px solid #000000;
+}
+#menu-atas {
+	background-color	:#000000;
+	background-image	:url(image/menu-atas.gif);
+	border				:1px solid #333;
+	padding				:11px;
+	padding-top			:10px;
+	height				:15px;
+	padding-bottom  	:8px
+}
+#menu-atas li {
+	display				:inline;
+}
+#menu-atas li a {
+	color				:#333333;
+	font-size			:15px;
+	font-weight			:bold;
+	margin-right		:20px;
+	margin-left			:5px;
+	text-decoration 	:none;
+}
+#menu-atas li a:hover{
+	color				:#00b5f2;
+}
+#footer {
+	background-color	:#666;
+}
+#menu-kiri {
+	margin				:5px;
+	width				:250px;
+	float				:left;
+}
+#menu-tengah {
+	margin				:5px;
+	width				:670px;
+	float				:left;
+}
+#menu-kanan {
+	margin				:5px;
+	width				:250px;
+	float				:left;
+}
+#bg_menu {
+	background-color	: #ccc;
+	background-image	: url(image/menu-baru.gif);
+	border				:#333;
+	border-bottom		:0px;
+	padding				:7px;
+	padding-left		:10px;
+	font-size			:12px;
+	font-weight			:bold;
+	color				:#ffffff;
+	height				:10px;
+}
+#content_menu {
+	background-color	:#eeeeee;
+	border				:1px solid #333;
+	line-height			:16px;
+	padding				:6px;
+	margin-bottom		:10px;
+}
+#content_menu a {
+	color				:#006699;
+	font-size			:11px;
+	text-decoration		:none;
+}
+#content_menu a:hover {
+	color				:#eeeeee;
+}
